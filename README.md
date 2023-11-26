@@ -19,8 +19,9 @@
 
 2. Установите зависимости:
 
-   pip install -r requirements.txt
-
+   - pip install -r requirements.txt
+   
+   - poetry install (если используете Poetry)
 3. Создайте базу данных и примените миграции:
 
    python manage.py migrate
